@@ -6,7 +6,7 @@
 }
 
 
-.ho::before{
+.ho::after{
     content: '';
     width: 2px;
     position: absolute;
@@ -16,7 +16,7 @@
     
 }
 
-.ho:hover::before{
+.ho:hover::after{
     content: '';
     margin-top: 2px;
     height: 2px;
